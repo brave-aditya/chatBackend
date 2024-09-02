@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5000;
 const router = require("./router");
 corsOptions = {
   cors: true,
-  origins: ["http://localhost:5173"],
+  origins: ["https://chat-ochre-zeta.vercel.app/"],
 };
 const app = express();
 const server = http.createServer(app);
